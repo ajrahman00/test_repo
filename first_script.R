@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-a=1
-=======
-a = 1
-b = 2
-c = 3
->>>>>>> 170abbcce517a19d45ae595830b0853d6d13c6e1
+library(tsibble)
+y <- tsibble(
+  Year = 2015:2019,
+  Observation = c(123, 39, 78, 52, 110),
+  index = Year
+)
